@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Watching Blox Fruits Crew"];
+const statusMessages = ["Watching United Pirates"];
 
 
 let currentIndex = 0;
