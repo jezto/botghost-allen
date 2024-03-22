@@ -1,0 +1,15 @@
+# Exported from Render on 2024-03-22T08:24:10Z
+services:
+- type: web
+  name: botghost-allen
+  runtime: node
+  repo: https://github.com/jezto/botghost-allen
+  branch: main
+  plan: free
+  envVars:
+  - key: TOKEN
+    sync: false
+  region: oregon
+  buildCommand: npm install
+  startCommand: node index.js
+version: "1"
